@@ -19,4 +19,4 @@ streamlit run app.py
 Interaja com a interface para cadastrar clientes no evento.
 
 🗄️ Banco de Dados
-A aplicação utiliza MySQL para armazenar os registros. O script de inicialização do banco está incluído no diretório database/. Para iniciar, execute:
+A aplicação utiliza MySQL para armazenar os registros. O script de inicialização do banco está incluído no diretório principal. Para iniciar, execute:
