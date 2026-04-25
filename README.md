@@ -3,12 +3,11 @@
 <!-- Adicione aqui um banner ou logo do projeto, se houver. Ex: ![Banner do Projeto](link_para_sua_imagem.png) -->
 
 ## 📝 Descrição Curta
-
-Esta aplicação web, desenvolvida em **Python** com **Streamlit**, oferece uma solução simples e eficaz para o registo e gestão de clientes para eventos da DSIcréditos Freamunde. Ela permite adicionar, visualizar e remover registos de clientes de forma intuitiva, armazenando os dados de forma persistente em **ficheiros de texto**.
+Aplicação web em **Python** com **Streamlit** para gerir clientes da DSIcréditos Freamunde. Permite adicionar, ver e remover clientes, guardando os dados em **ficheiros de texto**.
 
 ## 🎬 Demonstração
 
-Para uma visão rápida das funcionalidades, confira:
+Veja a aplicação em ação:
 
 *   **GIF/Vídeo de Demonstração:** ![Demonstração](./v.gif)
 
@@ -16,7 +15,7 @@ Para uma visão rápida das funcionalidades, confira:
 
 Este projeto utiliza as seguintes tecnologias:
 
-*   **Python**: Linguagem de programação principal.
+*   **Python**: Linguagem de programação.
     ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 *   **Streamlit**: Framework para construção rápida de aplicações web interativas.
     ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
@@ -25,32 +24,28 @@ Este projeto utiliza as seguintes tecnologias:
 
 ## 📦 Instalação
 
-Para configurar e rodar o projeto localmente, siga os passos abaixo:
+Para instalar e usar:
 
 1.  **Clone o repositório:**
     ```bash
     git clone https://github.com/seu-usuario/seu-repositorio.git
     cd seu-repositorio
     ```
-
-2.  **Crie e ative um ambiente virtual (recomendado):**
+2.  **Crie e ative um ambiente virtual:**
     ```bash
     python -m venv venv
-    source venv/bin/activate  # No Windows: `venv\Scripts\activate`
+    source venv/bin/activate  # Windows: `venv\Scripts\activate`
     ```
-
 3.  **Instale as dependências:**
     ```bash
-    pip install -r requirements.txt
+    pip install streamlit pandas
     ```
-    (Você precisará criar um arquivo `requirements.txt` com `streamlit`, `pandas`)
-
 4.  **Ficheiro de Dados:**
-    *   A aplicação irá criar automaticamente um ficheiro chamado `clientes.txt` no diretório raiz do projeto para armazenar os dados dos clientes. Não é necessária nenhuma configuração manual.
+    *   O ficheiro `clientes.txt` será criado automaticamente para guardar os dados dos clientes.
 
 ## ▶️ Como usar
 
-Após a instalação e configuração do banco de dados, inicie a aplicação Streamlit:
+Para iniciar a aplicação:
 ```bash
 streamlit run Registo.py
 ```
