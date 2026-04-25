@@ -50,6 +50,3 @@ Para iniciar a aplicação:
 streamlit run Registo.py
 ```
 Interaja com a interface para cadastrar clientes no evento.
-
-## 🗄️ Banco de Dados
-A aplicação utiliza MariaDB para armazenar os registros. O script de inicialização do banco está incluído no diretório principal.
