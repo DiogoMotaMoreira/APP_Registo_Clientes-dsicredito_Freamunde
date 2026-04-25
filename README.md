@@ -10,7 +10,7 @@ Esta aplicação web, desenvolvida em **Python** com **Streamlit**, oferece uma 
 
 Para uma visão rápida das funcionalidades, confira:
 
-*   **GIF/Vídeo de Demonstração:** v.webp
+*   **GIF/Vídeo de Demonstração:** ![Demonstração](./assets/v.gif)
 
 ## � Tecnologias
 
